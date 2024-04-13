@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Museu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <!--[if lt IE 9]>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="container"><!--início container--> <!--importante colocar o container(mais oraganizado)-->
+        <header><!--início header-->
+            <div id="logo">
+                <h1>Museu nacional</h1><!--mesmo colcoando a imagem, tem que o leitor reconheça -->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="exposicao.html">exposicao </a></li>
+                    <li><a href="pequisa.html">pesquisa</a></li>
+                    <li><a href="acervo.html">acervo</a></li>
+                    <li><a href="video.html">vídeos</a></li>
+                    <li><a href="fotos.html">fotos</a></li>
+                    <li><a  href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header><!--fim header-->
+        <div>
+            <div class="coluna-direita">
+                <div id="direc-museu"><p>Museu nacional criado em 1922, é um dos 
+                    mais importantes museus de todo o Brasil de mais de 250.000 itens 
+                    "direção do museu"</p>
+                </div>
+                <div id="formulario">
+                    <h3>FAÇA UMA VISITA</h1>
+                        <form>
+                            <span>Data:</span><input type="date"> 
+                            <span >Qtd de pessoas:</span><input id="pessoas" type="number">
+                            <input id="botao" type="submit" value="Verificar Disponibilidade">
+                        </form>
+                </div>
+                <div id="fotos">
+                    <h3>GALERIA DE FOTOS</h3>
+                    <div class="foto"><img class="foto1"src="imagens/imagem1.jpg"></div>
+                    <div class="foto"><img class="foto1"src="imagens/imagem2.jpg"></div>
+                    <div class="foto"><img class="foto1"src="imagens/imagem3.jpg"></div>
+                    <div class="foto"><img class="fot1"src="imagens/imagem4.jpg"></div>
+                </div>
+            </div>
+            <div class="coluna-esquerda"><!--começo coluna esquerda-->
+                <div id="museu"><p>Museu nacional, entrada principal</p></div>
+                <div id="conteudos"><!--comeco conteudo-->
+                    <div class="conteudo">
+                        <p>vídeo:conheça o museu</p>
+                        <div id="youtube">
+                            <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/RGUYb-hivrc?si=Ganj2LzzQ__X730M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay
+                            ; clipboard-write; 
+                            encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="conteudo"><!--fim parte do museu-->
+                        <p>Mapa:Encontre o Museu</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29272.981262526293!2d-46.628864!3d-23.4920911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1712962556810!5m2!1spt-BR!2sbr"
+                         width="400" height="300" 
+                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div class="conteudo">
+                        <div id="exposicao">
+                            <p>Exposições</p>
+                            <ul>
+                                <li><span>Os assustadores insetos</span></li>
+                                <li><span>O crânio de Luzia, a mulher mais antiga do Brasil</span></li>
+                                <li><span>Preguiça gigante e tigre-dentes-de-sabre</span> </li>
+                                <li><span>Plantas do Brasil Central </span></li>
+                                <li><span>Teresa Cristina:A imperatriz Arqueóloga </span></li>
+                                <li><span>Arte com Dinossauros - Paleoarte</span></li>
+                                <li><a href="exposicao.html"><b>Veja todos(65)</b></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="conteudo">
+                        <div id="historia">
+                            <p>200 anos de história</p>
+                            <span>Numa ponta que avançava sobre o mar,
+                                posteriormente conhecida com Ponta do Calabouço
+                                entre as praias de Piaçaba e Santa Luzia,
+                                no centro histórico do Rio de Janeiro, os portugueses
+                                construíram em 1603 a Fortaleza de Santiago, origem
+                                do conjunto arquitetõnico que hoje abriga o Museu
+                                Histórico Nacional.
+                            </span><br>
+                            <a href="#">Leia mais</a>
+                        </div>
+                    </div>
+                </div><!--final conteudo-->
+               
+            </div><!--fim coluna esquerda -->
+        </div>     
+    </div><!--fim container-->
+</body>
+</html>

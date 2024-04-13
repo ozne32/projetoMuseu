@@ -1,0 +1,134 @@
+body{
+    background: #f4f2ec url(imagens/fundo.png) repeat-x;
+    font: 12px "Lucida Grande",sans serif;
+}
+#container{
+    width: 1028;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    width: 248px;
+    height:41px;
+    background: url(imagens/logo.png) no-repeat;
+    text-indent: -99999px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+nav ul{
+    list-style: none;
+    float: right;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+a:link, a:active, a:visited{
+    color:#af670a;
+    text-decoration: none;
+}
+a:hover{
+    color: #227115;
+}
+nav li{
+    float:left;
+}
+.coluna-direita{
+    float: right;
+    margin-right:80px ;
+}
+
+#direc-museu{
+    width: 350px;
+    height: 320px;
+    text-indent: -999999px;
+    background: url(imagens/depoimento.png) no-repeat;
+}
+#formulario{
+    width: 350px;
+    background-color: #a7a7a3;
+}
+#formulario h3{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: red;
+}
+#formulario form{   
+    padding:20px
+}
+#pessoas{
+    width: 40px;
+}
+#botao{
+    margin-top: 10px;
+    margin-left: -10px;
+    width: 330px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    background-color:#af670a;
+    border-color: #af670a;
+}
+#fotos{
+    width: 350px;
+    background-color: #cfccc8;
+}
+.foto{
+    background: url(imagens/fundo-foto.png) no-repeat;
+    width: 130px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.foto1{
+    width: 93px;
+    height: 93px;
+}
+.coluna-esquerda{
+    float: left;
+    margin-left: 100px;
+}
+.coluna-esquerda #museu{
+    width: 720px;
+    height:320px;
+    background: url(imagens/museu.png) no-repeat;
+    text-indent: -9999px;
+}
+#conteudos{
+    padding: 10px 20px;
+}
+.conteudo{
+    float: left;
+}
+.conteudo p{
+    font-weight: bolder;
+    font-size: 15px;
+    color: #227115;
+    text-transform: uppercase;
+}
+#conteudos iframe{
+    width: 330px;
+    height: 220px;
+}
+#youtube{
+    margin-right: 20px;
+}
+#exposicao{
+    width: 330px;
+}
+#exposicao{
+    font-size: 14px;    
+}
+#exposicao span{
+    color: #af670a;
+}
+
+#historia{
+    width: 330px;
+    margin-left: 20px;
+}
+#historia span{
+    font-size: 14px;
+}
